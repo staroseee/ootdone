@@ -280,7 +280,7 @@
 - 第一轮公开网络与 GitHub 初筛未发现 `OOTDone` 或“今日搭”作为同类产品的明显直接冲突。
 - 初筛只用于排除明显冲突，不证明名称可以注册，也不替代微信小程序名称占用、商标和域名的正式核验。
 - PRD 和项目日志已使用新名称。
-- 用户已确认统一改名；GitHub 仓库已从 `staroseee/closet-dna` 迁移为 `staroseee/ootdone`。由于当前 Codex 工作区锁定旧目录，已创建并验证 `D:\Projects\ootdone`，旧目录需在切换工作区后删除。
+- 用户已确认统一改名；GitHub 仓库已从 `staroseee/closet-dna` 迁移为 `staroseee/ootdone`。已创建并验证 `D:\Projects\ootdone`，但当前任务的后台进程仍锁定旧目录，需结束本任务并从新目录创建任务后清理旧目录残留。
 
 第一轮曾考虑但未采用 `今日衣选 / Ootura / ootura` 和 `今日衣橱 / Dayrobe / dayrobe`；`OOTDly`、`WearCue` 和“今天穿啥”因发现已有公开使用而排除。
 
@@ -296,7 +296,7 @@
 
 - 核验微信小程序名称是否可用。
 - 在正式发布前完成目标类别的商标检索。
-- 切换到 `D:\Projects\ootdone` 后删除旧目录 `D:\Projects\closet-dna`，完成本地迁移收尾。
+- 结束当前任务，从 `D:\Projects\ootdone` 创建新任务后删除旧目录 `D:\Projects\closet-dna` 的 `.git` 和 `.agents` 残留，完成本地迁移收尾。
 
 ---
 

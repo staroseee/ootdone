@@ -216,7 +216,7 @@
 
 ### Result
 
-新旧仓库 HEAD 均为 `bae49e75f88df14aeee0dc10d380bb22ce49f3dc`，新仓库 `origin` 为 `https://github.com/staroseee/ootdone.git`，工作树为空。新目录已可使用；旧目录尚未删除，因此问题保持“待验证”。
+迁移检查点中新旧仓库 HEAD 一致，新仓库 `origin` 为 `https://github.com/staroseee/ootdone.git`，两个工作树均为空。用户在界面切换到新目录后再次尝试删除，旧任务的后台进程仍持有目录句柄；旧目录中的普通项目文件已经清理，只剩 `.git` 和 `.agents` 两个受占用目录。新目录完整可用且保存了全部内容；需要结束当前任务并从新目录创建任务后清理残留，因此问题保持“待验证”。
 
 ### 经验总结
 
